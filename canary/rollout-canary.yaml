@@ -10,10 +10,10 @@ spec:
       steps:
       - setWeight: 20
       - pause:
-          duration: "1m"
+          duration: "10s"
       - setWeight: 50
       - pause:
-          duration: "2m"
+          duration: "15s"
       canaryService: demo-canary
       stableService: demo
       trafficRouting:
